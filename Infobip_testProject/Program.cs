@@ -22,9 +22,9 @@ namespace Infobip_testProject
 
 
             DbRow dbRow = new DbRow();
-            enteringValues(dbRow);
-            PostValue(nc,dbRow);
-            
+            //enteringValues(dbRow);
+            //PostValue(nc,dbRow);
+            GetAllValues(nc);
             Console.ReadKey();
         }
 
